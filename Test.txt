@@ -1,0 +1,225 @@
+1.Java is a programming language.
+high speed prgm lang
+  javac and java are used for compilation,they are the 
+  tools in jdk,which is used for execution.
+
+2.JDK-Java Development Kit :Its is used for execution and writing the code.
+      Tools + jre
+
+  JRE- Java RunTime Environment : its is used for execution.
+       it consists of pre-defined library 
+       Library + jvm
+
+  JVM-Java virtual machine : it is used for execution perpose,
+      used to convert source code to byte code. 
+      (.byte code to source code)  
+      
+3. .Java-file : It is a java extention,which is used to store the file in that perticular file.
+
+ .class file : it is a copy of the .java file which has the extention of .class, it is for the acces.
+
+4. IDE's : Appache,eclips,xcodeid
+
+5.Variable :
+  Variable is a container which stores the values or the info.
+  Variable can be accesed.
+  Variable cannot act as the keyWord.
+  There are two types in variable they are
+ 1.Class variable:  
+Static variable and non-Static variable.
+  Static variable can be declare with the key word static.
+  Non-Static variable is declare directly without the key word static.
+ It can be declared in 4 ways
+   1.Constructor
+   2.method
+   3.ref
+   4.Literals
+2.Method level
+ static level
+ parameter
+
+Constructor: it is a special method,which has no return type.
+             the class name is same as the constructor name.
+             it is called with the new keyword.
+Methods: methods is a set of statements.which is invoked whenever it is in need.
+
+reference : reference is a address of the perticular info, which is stored in a constant pool.
+
+Literals : literals are nothing but the init.
+          ex: char size='M'.
+          
+
+6. Object oriented programming in java is basically is of 4 principles,
+   1.Polymorphism
+   2.abstraction
+   3.inheritance
+   4.encapslution
+
+  polymorphism: One statement in many forms is the simple defination of the polymorphism.
+  Abstration : hiding the inner details or the code and showing the functionality.
+  Inheritance : The extration of class and behivor from the parent class to the sub class.
+  Encapslution : wrapping of the codes is called encapslution.
+
+7. output will be error because method is overloaded.
+
+
+8. Data type are the pre defined values, which has its own primitive.
+data types are of two types 
+primitive data type and non-primitive data types.
+   
+There are 8 pre defined data type      non-primitive
+
+   int                                   String,array,class
+                                         any name 
+   float
+   long                                   
+   double        
+   byte
+  short
+  boolean
+  char
+
+non primitive data type can be string or anything that we declare as the data type
+string="Ambrutha"
+Computer computer
+
+9. Dot operator: dot operator is used to access the variables and the methods of the class.
+
+   class Machine
+{
+   String type;
+   String name;
+}
+static void machine{
+    System.out.println("operating system");
+}
+
+here system:non access specifier
+     out: is a variable
+     println:method name.
+
+
+
+10.java features:Java is designed by Jemes golling in 1991.
+   Java features,
+   1.high speed
+   2.secure
+   3.Java is used in many accessories like ac,moblile,and other equipments.
+   4.easy to learn and access.
+   5.Robust.
+   
+
+11.Array: Array is collection of similar objects which is stored in a sequence.
+         example:
+         logo[]={1,2,3,4,5}
+
+12.Class: Class is a template.it is non access speci
+         example:
+
+class Choco
+{
+String type;
+String name;
+double price;
+}
+static void main(String[] args)
+{
+//codes
+}
+
+Object: objects are the instance of the class.
+ they are the real world entity.
+
+
+
+13.Keywords:Keywords are the pre defined words or the reserved words.
+            they have there own properties. 
+there are 48 key words.
+1.new
+2.this
+3.package
+4.is
+5.continue*
+6.goto*
+7.final
+8.finally
+9.if
+10.return
+
+
+14.Constructor:Constructor is a special method.
+Constructor name is same as that of the class name.
+It is used to invoke the instance of the variable.
+
+Default constructor:
+Parametarized constructor:
+
+15.Main method is static because jvm can be called without the instance variable or class.
+
+  Method types:
+  there are two type:
+Static  and non-satic 
+Static method can be called single time.
+used with a static keyword
+non-static method can be called multiple time.
+
+ex:
+class name
+{
+void ex()
+{
+
+}
+}
+
+ex:
+class name
+{
+static void name()
+{
+
+}
+}
+
+
+
+16.Class Example{
+
+input[]={12,3,2,45,6,7,6};
+Example input[]
+for(i=input ;length>7;i++)
+{
+System.out.println("the length of the arrary is:");
+}
+
+
+17.method : methods is a set of statements or block of codes which is used to access in a class.
+ method can b called by passing the method name and other way is calling the method with the parameter.
+
+method overloading : When a class have multiple methods by same name but different parameters known as method overloading.
+
+class Addition
+{  
+static int add( a, b) 
+static int add( a, b, c) 
+}  
+class AdditionOver
+{  
+public static void main(String[] args)
+{  
+System.out.println(Addition.add(1,2));  
+System.out.println(Addition.add(11,12,13));  
+} 
+} 
+
+          
+
+
+
+             
+
+         
+
+  
+
+  
